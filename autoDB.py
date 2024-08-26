@@ -145,7 +145,7 @@ def deleteEntry(conn, tableName):
     print(f"Entry {entry_id} deleted from {tableName}.")
 
 def openGithub():
-    github_url = "https://github.com/spowers0409"
+    github_url = "https://github.com/spowers0409/autoDB"
     webbrowser.open(github_url)
     print("Opening GitHub repository in your default web browser...")
 
